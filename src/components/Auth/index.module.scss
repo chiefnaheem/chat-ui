@@ -1,3 +1,21 @@
 form {
     width: 800px;
 }
+
+.nameFieldRow {
+    display: flex;
+    // flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    // &:first-child {
+    //     margin-right: 8px;
+    // }
+    gap: 8px;
+    margin: 8px 0;
+}
+// .firtsName {
+//     width: 50%;
+// }
+.button {
+    margin: 8px 0;
+}
