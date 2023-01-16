@@ -31,11 +31,11 @@ export default function Register() {
       <Button type="submit" className={styles.button}>
         Register
       </Button>
-      <div className={styles.userExist}>
-        <p>
-          Already have an account?
-          <Link to="/login">Login</Link>
-        </p>
+      <div className={styles.footerText}>
+        <span>Already have an account?</span>
+        <Link to="/login">
+            <span>Login</span>
+        </Link>
       </div>
     </form>
   );

@@ -18,10 +18,15 @@ form {
 // }
 .button {
     margin: 8px 0;
+    &:last-child {
+        text-decoration: underline;
+        color: rgb(184, 184, 184)
+    }
+    text-align: center;
 }
 .loginFormPassword {
     margin: 8px 0;
 }
-.userExist {
+.footerText {
     margin: 8px 0;
 }
