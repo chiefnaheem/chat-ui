@@ -4,6 +4,10 @@ import styles from './index.module.scss'
 
 
 export default function Register() {
+    const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
+        console.log('submit')
+    }
   return (
     <form className={styles.form}>
         <InputContainer>
